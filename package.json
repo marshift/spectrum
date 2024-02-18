@@ -1,0 +1,21 @@
+{
+    "name": "spectrum",
+    "description": "minecraft pack builder for the modern era",
+    "version": "0.0.1",
+    "main": "src/index.ts",
+    "bin": "dist/index.js",
+    "scripts": {
+        "start": "node .",
+        "build": "rimraf dist && tsc"
+    },
+    "author": "marshift",
+    "license": "BSD-3-Clause",
+    "devDependencies": {
+        "@types/node": "^20.11.19",
+        "rimraf": "^5.0.5",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "yaml": "^2.3.4"
+    }
+}
