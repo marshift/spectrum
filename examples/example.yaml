@@ -1,9 +1,0 @@
-dependencies:
-  - minecraft: 1.20.4
-  - fabric: 0.96.1
-mods:
-  - sodium: mc1.20.4-0.5.8
-resourcepacks:
-  - faithful-32x: 1.20.4-december-2023
-  - funnypack:
-      url: https://marsh.zone/funnypack.zip

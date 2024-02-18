@@ -1,0 +1,16 @@
+pack {
+    dependencies {
+        minecraft "1.18.2"
+        fabric "0.96.1"
+    }
+    mods {
+        sodium "mc1.20.4-0.5.8"
+    }
+    resourcepacks {
+        faithful-32x "1.20.4-december.2023"
+        funnypack {
+            url "https://marsh.zone/funnypack.zip"
+            hash "62ee7824b940ff730f212bac51caf825c9df89a012c4e63989f2ff8c85463fa8"
+        }
+    }
+}
