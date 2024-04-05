@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@marshift/argus':
+    specifier: ^1.0.1
+    version: 1.0.1
   kdljs:
     specifier: ^0.2.0
     version: 0.2.0
@@ -56,6 +59,10 @@ packages:
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: /wrap-ansi@7.0.0
     dev: true
+
+  /@marshift/argus@1.0.1:
+    resolution: {integrity: sha512-iJPCZBvmmwT8I1KDm/lbA9YQHI7QYxnN0XUft5zVJatsd1XjL3mV2Cf5orTX9b77CPoQJjTJqIGul1bfM/Zijg==}
+    dev: false
 
   /@pkgjs/parseargs@0.11.0:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}

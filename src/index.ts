@@ -1,4 +1,4 @@
-import { createContext } from "./lib/argus";
+import { createContext } from "@marshift/argus";
 import commands from "./commands";
 
 const ctx = createContext(process.argv.slice(2));
